@@ -35,6 +35,9 @@ function App() {
 
   return (
     <div className="App">
+
+      <h1>Calculator</h1>
+
       <h3 className="display">{display}</h3>
 
       <span className="expression">{expression}</span>
