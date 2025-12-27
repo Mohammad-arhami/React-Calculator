@@ -6,15 +6,11 @@ function App() {
   const [expression, setExpression] = useState([]);
 
   const handleClick = value => {
-  
     setDisplay(value);
     setExpression([...expression, value]);
-    
   };
 
-
   const handleResult = () => {
-    
     const result = expression
       .join("")
       .split(/(\D)/g)
