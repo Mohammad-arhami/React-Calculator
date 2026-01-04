@@ -30,7 +30,7 @@ button:active{
 .App h1{
   color: black;
   font-size: 48px;
-  margin: 60px auto 0 auto;
+  margin: 40px auto 0 auto;
 }
 
 .display {
@@ -80,4 +80,68 @@ button:active{
   border-left: none;
   border-bottom: 0;
   box-shadow: -1px 3px 10px rgb(119, 119, 119);
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 558px) {
+  .App h1{
+    font-size: 35px;
+    margin: 13px auto 0 auto;
+  }
+
+  .display {
+    width: 70%;
+  }
+
+  .numbers{
+    width: 210px;
+  }
+
+  button {
+  width: 70px;
+  font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 808px) {
+
+  .App h1{
+    font-size: 38px;
+    margin: 20px auto 0 auto;
+  }
+
+  .display {
+    width: 70%;
+  }
+
+  .numbers{
+    width: 330px;
+  }
+
+  button {
+  width: 110px;
+  font-size: 22px;
+  }
+}
+
+
+@media screen and (min-width: 808px) and (max-width: 1000px) {
+
+  .App h1{
+    font-size: 43px;
+    margin: 30px auto 0 auto;
+  }
+
+  .display {
+    width: 55%;
+  }
+
+  .numbers{
+    width: 405px;
+  }
+
+  button {
+  width: 135px;
+  font-size: 25px;
+  }
 }
