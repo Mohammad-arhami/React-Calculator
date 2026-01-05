@@ -12,11 +12,14 @@ button {
   font-weight: bold;
   width: 70px;
   padding: 20px 0 20px 0;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #979797;
+  transition: all 0.2s;
+  border-radius: 10px;
+  margin-bottom: 1px;
 }
 
 button:active{
-  transform: scale(0.98);
+  transform: scale(0.95);
   border: 1px solid #6d6d6d;
 }
 
@@ -61,8 +64,8 @@ button:active{
   flex-flow: wrap;
   flex-wrap: wrap;
   justify-items: stretch;
-  width: 210px;
-  box-shadow: -1px 3px 10px rgb(119, 119, 119);
+  width: 215px;
+  /* box-shadow: -1px 3px 10px rgb(119, 119, 119); */
 }
 
 .numbers button:last-child {
@@ -94,12 +97,12 @@ button:active{
   }
 
   .numbers{
-    width: 210px;
+    width: 215px;
   }
 
   button {
   width: 70px;
-  font-size: 19px;
+  font-size: 17px;
   }
 }
 
@@ -115,12 +118,12 @@ button:active{
   }
 
   .numbers{
-    width: 330px;
+    width: 260px;
   }
 
   button {
-  width: 110px;
-  font-size: 22px;
+  width: 85px;
+  font-size: 19px;
   }
 }
 
@@ -129,19 +132,24 @@ button:active{
 
   .App h1{
     font-size: 43px;
-    margin: 30px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 
   .display {
     width: 55%;
+    margin-top: 15px;
+  }
+
+  .expression{
+    margin: 6px 0;
   }
 
   .numbers{
-    width: 405px;
+    width: 305px;
   }
 
   button {
-  width: 135px;
-  font-size: 25px;
+  width: 100px;
+  font-size: 21px;
   }
 }
