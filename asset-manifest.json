@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mohammad-arhami/React-Calculator/static/css/main.44c38de0.css",
+    "main.js": "/Mohammad-arhami/React-Calculator/static/js/main.58f6033c.js",
+    "index.html": "/Mohammad-arhami/React-Calculator/index.html",
+    "main.44c38de0.css.map": "/Mohammad-arhami/React-Calculator/static/css/main.44c38de0.css.map",
+    "main.58f6033c.js.map": "/Mohammad-arhami/React-Calculator/static/js/main.58f6033c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44c38de0.css",
+    "static/js/main.58f6033c.js"
+  ]
+}
